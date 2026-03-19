@@ -2,10 +2,11 @@ package com.flipzon.auth.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 @Data
 @AllArgsConstructor
-public class AuthResponse {
-
-    private String accessToken;
+@NoArgsConstructor
+public class RegisterResponse {
+    private String message;
 }
